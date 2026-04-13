@@ -19,7 +19,7 @@ project:
 
   # List your project's source files here. 
   source_files:        
-    - "project.v"
+    - "src/tt_um_jaycam_icell.v"
 
 # The pinout of your project. 
 pinout:
