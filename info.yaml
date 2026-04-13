@@ -1,0 +1,40 @@
+project:
+  title: "ICell Analog Block"
+  author: "Your Name"
+  description: "Analog icell design in Sky130"
+  language: "verilog"
+  clock_hz: 0
+  tiles: "1x1"
+  analog: true
+  top_module: "tt_um_icell"
+
+  source_files:
+    - "src/tt_um_icell.v"
+
+pinout:
+  ui[0]: "Rn"
+  ui[1]: "Cn"
+  ui[2]: "Sn"
+  ui[3]: "unused"
+  ui[4]: "unused"
+  ui[5]: "unused"
+  ui[6]: "unused"
+  ui[7]: "unused"
+
+  uo[0]: "Iout"
+  uo[1]: "unused"
+  uo[2]: "unused"
+  uo[3]: "unused"
+  uo[4]: "unused"
+  uo[5]: "unused"
+  uo[6]: "unused"
+  uo[7]: "unused"
+
+  uio[0]: "Vbias"
+  uio[1]: "unused"
+  uio[2]: "unused"
+  uio[3]: "unused"
+  uio[4]: "unused"
+  uio[5]: "unused"
+  uio[6]: "unused"
+  uio[7]: "unused"

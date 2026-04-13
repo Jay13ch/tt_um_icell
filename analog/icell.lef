@@ -1,0 +1,104 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO icell
+  CLASS BLOCK ;
+  FOREIGN icell ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 3.930 BY 2.320 ;
+  PIN Vbias
+    ANTENNAGATEAREA 0.250000 ;
+    PORT
+      LAYER li1 ;
+        RECT 2.160 1.730 2.460 1.830 ;
+        RECT 3.240 1.730 3.540 1.830 ;
+        RECT 2.160 1.330 3.540 1.730 ;
+      LAYER met1 ;
+        RECT 3.240 1.330 3.640 1.830 ;
+    END
+  END Vbias
+  PIN VGND
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.860 -0.040 3.930 2.430 ;
+      LAYER li1 ;
+        RECT 2.600 1.930 3.100 2.180 ;
+        RECT 1.290 1.560 1.620 1.730 ;
+        RECT 2.000 0.070 2.230 0.400 ;
+      LAYER met1 ;
+        RECT 1.700 1.880 3.100 2.230 ;
+        RECT 1.700 1.810 2.080 1.880 ;
+        RECT 1.290 1.470 2.080 1.810 ;
+        RECT 1.700 0.400 2.080 1.470 ;
+        RECT 1.700 0.070 2.230 0.400 ;
+    END
+  END VGND
+  PIN Iout
+    ANTENNADIFFAREA 0.175000 ;
+    PORT
+      LAYER li1 ;
+        RECT 2.600 0.280 3.100 0.480 ;
+      LAYER met1 ;
+        RECT 2.600 0.070 3.100 0.510 ;
+    END
+  END Iout
+  PIN Cn
+    ANTENNAGATEAREA 0.150000 ;
+    PORT
+      LAYER li1 ;
+        RECT 0.920 1.260 1.090 1.590 ;
+      LAYER met1 ;
+        RECT 0.420 1.250 1.140 1.600 ;
+    END
+  END Cn
+  PIN VPWR
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT 0.000 -0.040 0.860 2.430 ;
+      LAYER li1 ;
+        RECT 0.030 1.980 0.660 2.220 ;
+        RECT 0.030 0.920 0.220 1.980 ;
+        RECT 0.030 0.250 0.390 0.920 ;
+      LAYER met1 ;
+        RECT 0.070 0.410 0.420 0.760 ;
+    END
+  END VPWR
+  PIN Sn
+    ANTENNAGATEAREA 0.150000 ;
+    PORT
+      LAYER li1 ;
+        RECT 0.920 0.720 1.090 1.070 ;
+      LAYER met1 ;
+        RECT 0.890 0.720 1.180 1.070 ;
+    END
+  END Sn
+  PIN Rn
+    ANTENNAGATEAREA 0.150000 ;
+    PORT
+      LAYER li1 ;
+        RECT 0.920 1.780 1.090 2.130 ;
+      LAYER met1 ;
+        RECT 0.890 1.780 1.150 2.130 ;
+    END
+  END Rn
+  OBS
+      LAYER li1 ;
+        RECT 1.280 2.000 1.960 2.170 ;
+        RECT 1.790 1.290 1.960 2.000 ;
+        RECT 0.390 1.120 0.730 1.290 ;
+        RECT 1.280 1.120 1.960 1.290 ;
+        RECT 0.560 0.550 0.730 1.120 ;
+        RECT 2.160 0.850 3.540 1.080 ;
+        RECT 1.300 0.680 3.540 0.850 ;
+        RECT 1.300 0.670 2.460 0.680 ;
+        RECT 1.300 0.550 1.470 0.670 ;
+        RECT 2.160 0.580 2.460 0.670 ;
+        RECT 3.240 0.580 3.540 0.680 ;
+        RECT 0.560 0.380 1.470 0.550 ;
+  END
+END icell
+END LIBRARY
+

@@ -1,0 +1,12 @@
+* SPICE3 file created from icell.ext - technology: sky130A
+.lib "/home/jaycam/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.include "/home/jaycam/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice"
+
+X0 PDM Sn Ien VGND sky130_fd_pr__nfet_01v8 ad=0.0725 pd=0.79 as=0.2304 ps=2.18 w=0.5 l=0.15
+X1 VPWR Rn PUM VPWR sky130_fd_pr__pfet_01v8 ad=0.135 pd=1.54 as=0.0675 ps=0.77 w=0.5 l=0.15
+X2 SM Ien Iout VGND sky130_fd_pr__nfet_g5v0d10v5 ad=0.0625 pd=0.75 as=0.175 ps=1.7 w=0.5 l=0.5
+X3 Ien Sn VPWR VPWR sky130_fd_pr__pfet_01v8 ad=0.0725 pd=0.79 as=0.15 ps=1.6 w=0.5 l=0.15
+X4 VGND Cn PDM VGND sky130_fd_pr__nfet_01v8 ad=0.0725 pd=0.79 as=0.0725 ps=0.79 w=0.5 l=0.15
+X5 PDM Rn VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1312 pd=1.54 as=0.0725 ps=0.79 w=0.5 l=0.15
+X6 VGND Vbias SM VGND sky130_fd_pr__nfet_g5v0d10v5 ad=0.175 pd=1.7 as=0.0625 ps=0.75 w=0.5 l=0.5
+X7 PUM Cn Ien VPWR sky130_fd_pr__pfet_01v8 ad=0.0675 pd=0.77 as=0.0725 ps=0.79 w=0.5 l=0.15
