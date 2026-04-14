@@ -1,3 +1,4 @@
+![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 ---
 title: "MOS VOC Sensor Array - icell"
 author: "jaycam"
